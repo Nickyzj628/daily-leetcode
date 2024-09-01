@@ -12,12 +12,12 @@
  * @return {number}
  */
 var busyStudent = function (startTime, endTime, queryTime) {
-	let answer = 0
+    let answer = 0
     // 遍历，并非算法题
-	for (let i = 0; i < startTime.length; i++) {
-		if (startTime[i] <= queryTime && endTime[i] >= queryTime) answer++
-	}
-	return answer
+    for (let i = 0; i < startTime.length; i++) {
+        if (startTime[i] <= queryTime && endTime[i] >= queryTime) answer++
+    }
+    return answer
 }
 
 let startTime = [1, 2, 3]
