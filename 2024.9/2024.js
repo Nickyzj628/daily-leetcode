@@ -21,9 +21,9 @@ var maxConsecutiveAnswers = function (answerKey, k) {
         let j = 0
         let sum = 0
         while (j < answerKey.length) {
-            sum += answerKey[j] === char ? 0 : 1
+            if (answerKey[j] !== char) sum++
             while (sum > k) {
-                sum -= answerKey[i++] === char ? 0 : 1
+                if (answerKey[i++] !== char) sum--
             }
             answer = Math.max(answer, j - i + 1)
             j++
