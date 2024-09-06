@@ -8,3 +8,4 @@
 - [2708. 一个小组的最大实力值](https://github.com/Nickyzj628/daily_leetcode/blob/main/2024.9/2708.js)
 - [2860. 让所有学生保持开心的分组方法数](https://github.com/Nickyzj628/daily_leetcode/blob/main/2024.9/2860.js)
 - [3174. 清除数字](https://github.com/Nickyzj628/daily_leetcode/blob/main/2024.9/3174.js)
+- [3176. 求出最长好子序列 I](https://github.com/Nickyzj628/daily_leetcode/blob/main/2024.9/3176.js)
