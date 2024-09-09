@@ -10,3 +10,5 @@
 - [3174. 清除数字](https://github.com/Nickyzj628/daily_leetcode/blob/main/2024.9/3174.js)
 - [3176. 求出最长好子序列 I](https://github.com/Nickyzj628/daily_leetcode/blob/main/2024.9/3176.js)
 - [3177. 求出最长好子序列 II](https://github.com/Nickyzj628/daily_leetcode/blob/main/2024.9/3177.js)
+- [977. 有序数组的平方](https://github.com/Nickyzj628/daily_leetcode/blob/main/2024.9/977.js)
+- [2181. 合并零之间的节点](https://github.com/Nickyzj628/daily_leetcode/blob/main/2024.9/2181.js)
