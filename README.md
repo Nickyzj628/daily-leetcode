@@ -12,3 +12,5 @@
 - [3177. 求出最长好子序列 II](https://github.com/Nickyzj628/daily_leetcode/blob/main/2024.9/3177.js)
 - [977. 有序数组的平方](https://github.com/Nickyzj628/daily_leetcode/blob/main/2024.9/977.js)
 - [2181. 合并零之间的节点](https://github.com/Nickyzj628/daily_leetcode/blob/main/2024.9/2181.js)
+- ~~2552. 统计上升四元组~~（看了题解和视频，以我的水平做不出来）
+- [2555. 两个线段获得的最多奖品](https://github.com/Nickyzj628/daily_leetcode/blob/main/2024.9/2555.js)
