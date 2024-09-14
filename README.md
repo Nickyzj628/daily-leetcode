@@ -16,3 +16,4 @@
 - [2555. 两个线段获得的最多奖品](https://github.com/Nickyzj628/daily_leetcode/blob/main/2024.9/2555.js)
 - [2576. 求出最多标记下标](https://github.com/Nickyzj628/daily_leetcode/blob/main/2024.9/2555.js)
 - [2398. 预算内的最多机器人数目](https://github.com/Nickyzj628/daily_leetcode/blob/main/2024.9/2398.js)
+- [2390. 从字符串中移除星号](https://github.com/Nickyzj628/daily_leetcode/blob/main/2024.9/2390.js)
