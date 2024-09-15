@@ -17,3 +17,4 @@
 - [2576. 求出最多标记下标](https://github.com/Nickyzj628/daily_leetcode/blob/main/2024.9/2555.js)
 - [2398. 预算内的最多机器人数目](https://github.com/Nickyzj628/daily_leetcode/blob/main/2024.9/2398.js)
 - [2390. 从字符串中移除星号](https://github.com/Nickyzj628/daily_leetcode/blob/main/2024.9/2390.js)
+- [2848. 与车相交的点](https://github.com/Nickyzj628/daily_leetcode/blob/main/2024.9/2848.js)
