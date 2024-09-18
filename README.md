@@ -20,3 +20,4 @@
 - [2848. 与车相交的点](https://github.com/Nickyzj628/daily_leetcode/blob/main/2024.9/2848.js)
 - [1184. 公交站间的距离](https://github.com/Nickyzj628/daily_leetcode/blob/main/2024.9/1184.js)
 - ~~[815. 公交路线](https://leetcode.cn/problems/bus-routes/)~~（看了[题解](https://leetcode.cn/problems/bus-routes/solutions/1617692/815-gong-jiao-lu-xian-by-jx-zhuang-xgbv)，知道做法了，等学完图再回来刷掉）
+- [2332. 坐上公交的最晚时间](https://github.com/Nickyzj628/daily_leetcode/blob/main/2024.9/2332.js)
