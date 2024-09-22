@@ -21,4 +21,7 @@
 16. [1184. 公交站间的距离](https://github.com/Nickyzj628/daily_leetcode/blob/main/2024.9/1184.js)
 17. ~~[815. 公交路线](https://leetcode.cn/problems/bus-routes/)~~（看了[题解](https://leetcode.cn/problems/bus-routes/solutions/1617692/815-gong-jiao-lu-xian-by-jx-zhuang-xgbv)，知道做法了，等学完图再回来刷掉）
 18. [2332. 坐上公交的最晚时间](https://github.com/Nickyzj628/daily_leetcode/blob/main/2024.9/2332.js)
-18. [2414. 最长的字母序连续子字符串的长度](https://github.com/Nickyzj628/daily_leetcode/blob/main/2024.9/2414.js)
+19. [2414. 最长的字母序连续子字符串的长度](https://github.com/Nickyzj628/daily_leetcode/blob/main/2024.9/2414.js)
+20. ~~[2376. 统计特殊整数](https://github.com/Nickyzj628/daily_leetcode/blob/main/2024.9/2376.js)~~（还没学到位运算和图论，回头再刷）
+21. ~~[2374. 边积分最高的节点](https://leetcode.cn/problems/node-with-highest-edge-score/)~~（还没学到图论，回头再刷）
+22. [997. 找到小镇的法官](https://github.com/Nickyzj628/daily_leetcode/blob/main/2024.9/997.js)（又是图，简单题就用模拟的方式自己做了）
