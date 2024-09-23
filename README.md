@@ -25,3 +25,4 @@
 20. ~~[2376. 统计特殊整数](https://github.com/Nickyzj628/daily_leetcode/blob/main/2024.9/2376.js)~~（还没学到位运算和图论，回头再刷）
 21. ~~[2374. 边积分最高的节点](https://leetcode.cn/problems/node-with-highest-edge-score/)~~（还没学到图论，回头再刷）
 22. [997. 找到小镇的法官](https://github.com/Nickyzj628/daily_leetcode/blob/main/2024.9/997.js)（又是图，简单题就用模拟的方式自己做了）
+23. [1014. 最佳观光组合](https://github.com/Nickyzj628/daily_leetcode/blob/main/2024.9/1014.js)
