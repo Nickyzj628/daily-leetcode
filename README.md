@@ -26,3 +26,4 @@
 21. ~~[2374. 边积分最高的节点](https://leetcode.cn/problems/node-with-highest-edge-score/)~~（还没学到图论，回头再刷）
 22. [997. 找到小镇的法官](https://github.com/Nickyzj628/daily_leetcode/blob/main/2024.9/997.js)（又是图，简单题就用模拟的方式自己做了）
 23. [1014. 最佳观光组合](https://github.com/Nickyzj628/daily_leetcode/blob/main/2024.9/1014.js)
+24. [2207. 字符串中最多数目的子序列](https://github.com/Nickyzj628/daily_leetcode/blob/main/2024.9/2207.js)
