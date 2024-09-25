@@ -1,4 +1,7 @@
-/** 杨辉三角形/帕斯卡三角形 */
+/**
+ * 杨辉三角形/帕斯卡三角形
+ * @param {number} row
+ */
 function pascalTriangle(row) {
 	const triangle = []
 

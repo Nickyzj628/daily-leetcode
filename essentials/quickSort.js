@@ -1,7 +1,7 @@
 /**
  * 快速排序
- * @param {Number[]} arr
- * @returns {Number[]}
+ * @param {number[]} arr
+ * @returns {number[]}
  */
 export function quickSort(arr) {
 	if (arr.length < 2) return arr

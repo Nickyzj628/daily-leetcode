@@ -1,7 +1,7 @@
 /**
  * 二分查找
- * @param {Number[]} arr
- * @param {Number} target
+ * @param {number[]} arr
+ * @param {number} target
  */
 export function binarySearch(arr, target) {
 	let left = 0

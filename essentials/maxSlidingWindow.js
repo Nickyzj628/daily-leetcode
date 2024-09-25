@@ -1,7 +1,7 @@
 /**
  * 滑动窗口最大值
- * @param {Number[]} nums
- * @param {Number} k
+ * @param {number[]} nums
+ * @param {number} k
  */
 function maxSlidingWindow(nums, k) {
 	// 经典的单调队列题

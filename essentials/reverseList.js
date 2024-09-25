@@ -24,8 +24,8 @@ function reverseList(head) {
 /**
  * 反转链表II
  * @param {ListNode} head
- * @param {Number} left
- * @param {Number} right
+ * @param {number} left
+ * @param {number} right
  * @returns {ListNode}
  */
 function reverseBetween(head, left, right) {
@@ -58,7 +58,7 @@ function reverseBetween(head, left, right) {
 /**
  * K个一组翻转链表
  * @param {ListNode} head
- * @param {Number} k
+ * @param {number} k
  */
 function reverseKGroup(head, k) {
 	// 求出链表长度
