@@ -27,3 +27,4 @@
 22. [997. 找到小镇的法官](https://github.com/Nickyzj628/daily_leetcode/blob/main/2024.9/997.js)（又是图，简单题就用模拟的方式自己做了）
 23. [1014. 最佳观光组合](https://github.com/Nickyzj628/daily_leetcode/blob/main/2024.9/1014.js)
 24. [2207. 字符串中最多数目的子序列](https://github.com/Nickyzj628/daily_leetcode/blob/main/2024.9/2207.js)
+25. [2306. 公司命名](https://github.com/Nickyzj628/daily_leetcode/blob/main/2024.9/2306.js)（自己做超时了，基于[题解](https://leetcode.cn/problems/naming-a-company/solutions/1596945/by-ling520-6gri/?envType=daily-question&envId=2024-09-25)稍作修改+注释又写了一遍）
