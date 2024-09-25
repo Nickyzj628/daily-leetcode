@@ -1,5 +1,10 @@
 # daily_leetcode
-力扣每日一题（JavaScript）
+
+日期命名的文件夹：力扣每日一题
+
+/essentials：基础算法
+
+/advances：前端框架算法
 
 ## 2024.9
 
