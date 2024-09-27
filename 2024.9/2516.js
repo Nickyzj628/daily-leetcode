@@ -17,25 +17,19 @@ var takeCharacters = function (s, k) {
 		counts[char.charCodeAt() - 97]++
 	}
 	// 判断字符数是否满足条件
-	const check = () => {
-		for (let count of counts) {
-			if (count < k) return false
-		}
-		return true
-	}
-	if (!check()) return -1
+	const invalid = () => counts.some((count) => count < k)
+	if (invalid()) return -1
 	// 寻找最长中间子串
-	const { length } = s
-	let answer = length
-	for (let i = 0, j = 0; j < length; j++) {
+	let answer = s.length
+	for (let i = 0, j = 0; j < s.length; j++) {
 		const charJ = s[j]
 		counts[charJ.charCodeAt() - 97]--
-		while (!check()) {
+		while (invalid()) {
 			const charI = s[i++]
 			counts[charI.charCodeAt() - 97]++
 		}
 		// 更新答案为min(字符串全长-当前中间窗口长度)
-		answer = Math.min(answer, length - (j - i + 1))
+		answer = Math.min(answer, s.length - (j - i + 1))
 	}
 	return answer
 }
