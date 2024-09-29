@@ -35,3 +35,5 @@
 25. [2306. 公司命名](https://github.com/Nickyzj628/daily_leetcode/blob/main/2024.9/2306.js)（自己做超时了，基于[题解](https://leetcode.cn/problems/naming-a-company/solutions/1596945/by-ling520-6gri/?envType=daily-question&envId=2024-09-25)稍作修改+注释又写了一遍）
 26. [2535. 数组元素和与数字和的绝对差](https://github.com/Nickyzj628/daily_leetcode/blob/main/2024.9/2535.js)
 27. [2516. 每种字符至少取 K 个](https://github.com/Nickyzj628/daily_leetcode/blob/main/2024.9/2516.js)
+28. ~~[2286. 以组为单位订音乐会的门票](https://leetcode.cn/problems/booking-concert-tickets-in-groups/)~~（学完线段树再做）
+29. [2073. 买票需要的时间](https://github.com/Nickyzj628/daily_leetcode/blob/main/2024.9/2073.js)
