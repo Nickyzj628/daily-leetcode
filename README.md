@@ -17,7 +17,7 @@
 7. [3177. 求出最长好子序列 II](https://github.com/Nickyzj628/daily_leetcode/blob/main/2024.9/3177.js)
 8. [977. 有序数组的平方](https://github.com/Nickyzj628/daily_leetcode/blob/main/2024.9/977.js)
 9. [2181. 合并零之间的节点](https://github.com/Nickyzj628/daily_leetcode/blob/main/2024.9/2181.js)
-10. ~~[2552. 统计上升四元组](https://leetcode.cn/problems/count-increasing-quadruplets/)~~（看了题解和视频，以我的水平做不出来）
+10. ~~[2552. 统计上升四元组](https://leetcode.cn/problems/count-increasing-quadruplets/)~~（看了题解也做不出）
 11. [2555. 两个线段获得的最多奖品](https://github.com/Nickyzj628/daily_leetcode/blob/main/2024.9/2555.js)
 12. [2576. 求出最多标记下标](https://github.com/Nickyzj628/daily_leetcode/blob/main/2024.9/2555.js)
 13. [2398. 预算内的最多机器人数目](https://github.com/Nickyzj628/daily_leetcode/blob/main/2024.9/2398.js)
@@ -27,12 +27,12 @@
 17. [815. 公交路线](https://github.com/Nickyzj628/daily_leetcode/blob/main/2024.9/815.js)
 18. [2332. 坐上公交的最晚时间](https://github.com/Nickyzj628/daily_leetcode/blob/main/2024.9/2332.js)
 19. [2414. 最长的字母序连续子字符串的长度](https://github.com/Nickyzj628/daily_leetcode/blob/main/2024.9/2414.js)
-20. ~~[2376. 统计特殊整数](https://github.com/Nickyzj628/daily_leetcode/blob/main/2024.9/2376.js)~~（还没学到位运算和图论，回头再刷）
+20. ~~[2376. 统计特殊整数](https://github.com/Nickyzj628/daily_leetcode/blob/main/2024.9/2376.js)~~（学完位运算和图论再做）
 21. [2374. 边积分最高的节点](https://leetcode.cn/problems/node-with-highest-edge-score/)
 22. [997. 找到小镇的法官](https://github.com/Nickyzj628/daily_leetcode/blob/main/2024.9/997.js)
 23. [1014. 最佳观光组合](https://github.com/Nickyzj628/daily_leetcode/blob/main/2024.9/1014.js)
 24. [2207. 字符串中最多数目的子序列](https://github.com/Nickyzj628/daily_leetcode/blob/main/2024.9/2207.js)
-25. [2306. 公司命名](https://github.com/Nickyzj628/daily_leetcode/blob/main/2024.9/2306.js)（自己做超时了，基于[题解](https://leetcode.cn/problems/naming-a-company/solutions/1596945/by-ling520-6gri/?envType=daily-question&envId=2024-09-25)稍作修改+注释又写了一遍）
+25. [2306. 公司命名](https://github.com/Nickyzj628/daily_leetcode/blob/main/2024.9/2306.js)
 26. [2535. 数组元素和与数字和的绝对差](https://github.com/Nickyzj628/daily_leetcode/blob/main/2024.9/2535.js)
 27. [2516. 每种字符至少取 K 个](https://github.com/Nickyzj628/daily_leetcode/blob/main/2024.9/2516.js)
 28. ~~[2286. 以组为单位订音乐会的门票](https://leetcode.cn/problems/booking-concert-tickets-in-groups/)~~（学完线段树再做）
