@@ -38,3 +38,6 @@
 28. ~~[2286. 以组为单位订音乐会的门票](https://leetcode.cn/problems/booking-concert-tickets-in-groups/)~~（学完线段树再做）
 29. [2073. 买票需要的时间](https://github.com/Nickyzj628/daily_leetcode/blob/main/2024.9/2073.js)
 30. [1845. 座位预约管理系统](https://github.com/Nickyzj628/daily_leetcode/blob/main/2024.9/1845.js)
+
+## 2024.10
+1. [983. 最低票价](https://github.com/Nickyzj628/daily_leetcode/blob/main/2024.10/983.js)
