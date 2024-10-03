@@ -12,22 +12,22 @@
  * @return {number}
  */
 var maximumSubsequenceCount = function (text, pattern) {
-	// 贪心，在开头插入pattern[0]或在结尾插入pattern[1]能得到最佳答案
-	// 答案 = 原始子序列数量 + (插入pattern[0]时pattern[1]的数量 | 插入pattern[1]时pattern[0]的数量)
-	let countSubsequence = 0
-	const [a, b] = pattern
-	let countA = 0
-	let countB = 0
-	for (let char of text) {
-		if (char === b) {
-			countSubsequence += countA
-			countB++
-		}
-		if (char === a) {
-			countA++
-		}
-	}
-	return countSubsequence + Math.max(countA, countB)
+    // 贪心，在开头插入pattern[0]或在结尾插入pattern[1]能得到最佳答案
+    // 答案 = 原始子序列数量 + (插入pattern[0]时pattern[1]的数量 | 插入pattern[1]时pattern[0]的数量)
+    let countSubsequence = 0
+    const [a, b] = pattern
+    let countA = 0
+    let countB = 0
+    for (let char of text) {
+        if (char === b) {
+            countSubsequence += countA
+            countB++
+        }
+        if (char === a) {
+            countA++
+        }
+    }
+    return countSubsequence + Math.max(countA, countB)
 }
 
 // 可以得到 6 个 "ab" 子序列的部分方案为 "aaabb" ，"aaabb" 和 "aabbb" 。

@@ -12,16 +12,16 @@
  * @return {number}
  */
 var distanceBetweenBusStops = function (distance, start, destination) {
-	// 确定起点和终点
-	if (start > destination) [start, destination] = [destination, start]
-	// 一次遍历，起点到终点内的累加进sum1，其他的进sum2
-	let sum1 = 0
-	let sum2 = 0
-	for (let i = 0; i < distance.length; i++) {
-		if (i >= start && i < destination) sum1 += distance[i]
-		else sum2 += distance[i]
-	}
-	return Math.min(sum1, sum2)
+    // 确定起点和终点
+    if (start > destination) [start, destination] = [destination, start]
+    // 一次遍历，起点到终点内的累加进sum1，其他的进sum2
+    let sum1 = 0
+    let sum2 = 0
+    for (let i = 0; i < distance.length; i++) {
+        if (i >= start && i < destination) sum1 += distance[i]
+        else sum2 += distance[i]
+    }
+    return Math.min(sum1, sum2)
 }
 
 console.log(distanceBetweenBusStops([1, 2, 3, 4], 0, 2)) // 3

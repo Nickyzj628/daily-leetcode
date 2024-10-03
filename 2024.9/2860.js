@@ -12,20 +12,20 @@
  * @return {number}
  */
 var countWays = function (nums) {
-   // 思维题，排序+枚举
-   let answer = 0
-   // 0 2 3 3 6 6 7 7
-   nums.sort((a, b) => a - b)
-   const { length } = nums
-   // 全不选时满足条件
-   if (nums[0] > 0) answer++
-   // 全选时满足条件
-   if (nums[length - 1] < length) answer++
-   // 枚举满足条件=前一个学生<当前下标<当前学生
-   for (let i = 1; i < length; i++) {
-      if (nums[i - 1] < i && nums[i] > i) answer++
-   }
-   return answer
+    // 思维题，排序+枚举
+    let answer = 0
+    // 0 2 3 3 6 6 7 7
+    nums.sort((a, b) => a - b)
+    const { length } = nums
+    // 全不选时满足条件
+    if (nums[0] > 0) answer++
+    // 全选时满足条件
+    if (nums[length - 1] < length) answer++
+    // 枚举满足条件=前一个学生<当前下标<当前学生
+    for (let i = 1; i < length; i++) {
+        if (nums[i - 1] < i && nums[i] > i) answer++
+    }
+    return answer
 }
 
 // 班主任没有选中学生。

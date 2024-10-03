@@ -11,14 +11,14 @@
  * @return {string}
  */
 var clearDigits = function (s) {
-   // 栈
-   const chars = []
-   const isDigit = /\d/
-   for (let char of s) {
-      if (isDigit.test(char)) chars.pop()
-      else chars.push(char)
-   }
-   return chars.join("")
+    // 栈
+    const chars = []
+    const isDigit = /\d/
+    for (let char of s) {
+        if (isDigit.test(char)) chars.pop()
+        else chars.push(char)
+    }
+    return chars.join("")
 }
 
 console.log(clearDigits("abc")) // "abc"

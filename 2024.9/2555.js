@@ -14,20 +14,20 @@ import { binarySearch } from "../essentials/binarySearch.js"
  * @return {number}
  */
 var maximizeWin = function (prizePositions, k) {
-	// DP + 二分查找
-	// dp[j] = 右端点不超过prizePositions[j]，长度为k的线段最多能覆盖多少奖品
-	// dp[j] = dp[j-1]  不选prizePositions[j]
-	//         j-i+1    选prizePositions[j]，二分查找左端点prizePositions[i]=prizePositions[j]-k
-	// 求max(dp[j-1], j-i+1)
-	let answer = 0
-	const { length } = prizePositions
-	const dp = new Array(length).fill(0)
-	for (let j = 0; j < length; j++) {
-		let i = binarySearch(prizePositions, prizePositions[j] - k)
-		answer = Math.max(answer, j - i + 1 + dp[i])
-		dp[j + 1] = Math.max(dp[j], j - i + 1)
-	}
-	return answer
+    // DP + 二分查找
+    // dp[j] = 右端点不超过prizePositions[j]，长度为k的线段最多能覆盖多少奖品
+    // dp[j] = dp[j-1]  不选prizePositions[j]
+    //         j-i+1    选prizePositions[j]，二分查找左端点prizePositions[i]=prizePositions[j]-k
+    // 求max(dp[j-1], j-i+1)
+    let answer = 0
+    const { length } = prizePositions
+    const dp = new Array(length).fill(0)
+    for (let j = 0; j < length; j++) {
+        let i = binarySearch(prizePositions, prizePositions[j] - k)
+        answer = Math.max(answer, j - i + 1 + dp[i])
+        dp[j + 1] = Math.max(dp[j], j - i + 1)
+    }
+    return answer
 }
 
 // 这个例子中，你可以选择线段 [1, 3] 和 [3, 5] ，获得 7 个奖品。

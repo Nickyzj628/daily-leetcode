@@ -6,8 +6,8 @@
 // 返回修改后链表的头节点 head 。
 
 function ListNode(val, next) {
-	this.val = val === undefined ? 0 : val
-	this.next = next === undefined ? null : next
+    this.val = val === undefined ? 0 : val
+    this.next = next === undefined ? null : next
 }
 
 /**
@@ -15,18 +15,18 @@ function ListNode(val, next) {
  * @return {ListNode}
  */
 var mergeNodes = function (head) {
-	// 原地遍历
-	let tail = head
-	for (let curr = head.next; curr.next; curr = curr.next) {
-		if (curr.val) {
-			tail.val += curr.val
-		} else {
-			tail = tail.next
-			tail.val = 0
-		}
-	}
-	tail.next = null
-	return head
+    // 原地遍历
+    let tail = head
+    for (let curr = head.next; curr.next; curr = curr.next) {
+        if (curr.val) {
+            tail.val += curr.val
+        } else {
+            tail = tail.next
+            tail.val = 0
+        }
+    }
+    tail.next = null
+    return head
 }
 
 // [0,3,1,0,4,5,2,0] => [4,11]

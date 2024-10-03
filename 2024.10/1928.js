@@ -13,43 +13,43 @@
  * @return {number}
  */
 var minCost = function (maxTime, edges, passingFees) {
-	// dp[i][y]: 用i分钟从起点到y的最小费用 = min(dp[i][y], dp[i-timeXY][x]+passingFees[y])
-	const { length } = passingFees
-	const dp = Array.from({ length: maxTime + 1 }, () => new Array(length).fill(Infinity))
-	dp[0][0] = passingFees[0]
-	// 计算所有用时下的最优路径
-	for (let i = 1; i <= maxTime; i++) {
-		// 遍历每条路
-		for (let [x, y, time] of edges) {
-			if (time > i) continue
-			// 同时计算2个点的最优路径，起点到y可以先到x再加上y，起点到x可以先绕到y再加上x
-			dp[i][y] = Math.min(dp[i][y], dp[i - time][x] + passingFees[y])
-			dp[i][x] = Math.min(dp[i][x], dp[i - time][y] + passingFees[x])
-		}
-	}
-	// 寻找最短用时
-	let answer = Infinity
-	for (let i = 1; i <= maxTime; i++) {
-		answer = Math.min(answer, dp[i][length - 1])
-	}
-	if (answer === Infinity) return -1
-	return answer
+    // dp[i][y]: 用i分钟从起点到y的最小费用 = min(dp[i][y], dp[i-timeXY][x]+passingFees[y])
+    const { length } = passingFees
+    const dp = Array.from({ length: maxTime + 1 }, () => new Array(length).fill(Infinity))
+    dp[0][0] = passingFees[0]
+    // 计算所有用时下的最优路径
+    for (let i = 1; i <= maxTime; i++) {
+        // 遍历每条路
+        for (let [x, y, time] of edges) {
+            if (time > i) continue
+            // 同时计算2个点的最优路径，起点到y可以先到x再加上y，起点到x可以先绕到y再加上x
+            dp[i][y] = Math.min(dp[i][y], dp[i - time][x] + passingFees[y])
+            dp[i][x] = Math.min(dp[i][x], dp[i - time][y] + passingFees[x])
+        }
+    }
+    // 寻找最短用时
+    let answer = Infinity
+    for (let i = 1; i <= maxTime; i++) {
+        answer = Math.min(answer, dp[i][length - 1])
+    }
+    if (answer === Infinity) return -1
+    return answer
 }
 
 // 最优路径为 0 -> 1 -> 2 -> 5 ，总共需要耗费 30 分钟，需要支付 11 的通行费。
 console.log(
-	minCost(
-		30,
-		[
-			[0, 1, 10],
-			[1, 2, 10],
-			[2, 5, 10],
-			[0, 3, 1],
-			[3, 4, 10],
-			[4, 5, 15],
-		],
-		[5, 1, 2, 20, 20, 3]
-	)
+    minCost(
+        30,
+        [
+            [0, 1, 10],
+            [1, 2, 10],
+            [2, 5, 10],
+            [0, 3, 1],
+            [3, 4, 10],
+            [4, 5, 15],
+        ],
+        [5, 1, 2, 20, 20, 3]
+    )
 ) // 11
 
 console.log(minCost(100, [[0, 1, 100]], [2, 5])) // 7

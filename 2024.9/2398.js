@@ -12,28 +12,28 @@
  * @return {number}
  */
 var maximumRobots = function (chargeTimes, runningCosts, budget) {
-	// 求滑动窗口最大值，用单调队列，类似../essentials/maxSlidingWindow.js
-	// 窗口长度不固定，枚举右端点，维护左端点
-	let answer = 0
-	const queue = []
-	let head = 0
-	let tail = 0
-	let totalCost = 0
-	for (let left = 0, right = 0; right < chargeTimes.length; right++) {
-		// 出队，保证队列是递减的   
-		while (head < tail && chargeTimes[queue[tail - 1]] <= chargeTimes[right]) tail--
-		// 入队
-		queue[tail++] = right
-		totalCost += runningCosts[right]
-		// 出队，总开销不能超过budget
-		while (head < tail && chargeTimes[queue[head]] + (right - left + 1) * totalCost > budget) {
-			if (queue[head] === left) head++
-			totalCost -= runningCosts[left++]
-		}
-		// 更新答案
-		answer = Math.max(answer, right - left + 1)
-	}
-	return answer
+    // 求滑动窗口最大值，用单调队列，类似../essentials/maxSlidingWindow.js
+    // 窗口长度不固定，枚举右端点，维护左端点
+    let answer = 0
+    const queue = []
+    let head = 0
+    let tail = 0
+    let totalCost = 0
+    for (let left = 0, right = 0; right < chargeTimes.length; right++) {
+        // 出队，保证队列是递减的
+        while (head < tail && chargeTimes[queue[tail - 1]] <= chargeTimes[right]) tail--
+        // 入队
+        queue[tail++] = right
+        totalCost += runningCosts[right]
+        // 出队，总开销不能超过budget
+        while (head < tail && chargeTimes[queue[head]] + (right - left + 1) * totalCost > budget) {
+            if (queue[head] === left) head++
+            totalCost -= runningCosts[left++]
+        }
+        // 更新答案
+        answer = Math.max(answer, right - left + 1)
+    }
+    return answer
 }
 
 // 选择前 3 个机器人，可以得到答案最大值 3 。总开销是 max(3,6,1) + 3 * sum(2,1,3) = 6 + 3 * 6 = 24 ，小于 25 。

@@ -15,29 +15,29 @@
  * @return {string}
  */
 var removeStars = function (s) {
-	// 栈
-	const stack = []
-	for (let char of s) {
-		if (char === "*") stack.pop()
-		else stack.push(char)
-	}
-	return stack.join("")
+    // 栈
+    const stack = []
+    for (let char of s) {
+        if (char === "*") stack.pop()
+        else stack.push(char)
+    }
+    return stack.join("")
 
-	// 正则，测试用例31超时
-	// while (s.match(/\w\*/g)) {
-	// 	s = s.replace(/\w\*/g, "")
-	// }
-	// return s
+    // 正则，测试用例31超时
+    // while (s.match(/\w\*/g)) {
+    // 	s = s.replace(/\w\*/g, "")
+    // }
+    // return s
 
-	// 字符串，测试用例34超时
-	// const S = Array.from(s)
-	// for (let i = 0; i < S.length; i++) {
-	// 	const char = S[i]
-	// 	if (char !== "*") continue
-	// 	S.splice(i - 1, 2)
-	// 	i -= 2
-	// }
-	// return S.join("")
+    // 字符串，测试用例34超时
+    // const S = Array.from(s)
+    // for (let i = 0; i < S.length; i++) {
+    // 	const char = S[i]
+    // 	if (char !== "*") continue
+    // 	S.splice(i - 1, 2)
+    // 	i -= 2
+    // }
+    // return S.join("")
 }
 
 console.log(removeStars("leet**cod*e")) // "lecoe"

@@ -5,12 +5,12 @@
  * @returns {number}
  */
 function josephus(n, m) {
-	let answer = 0
-	// DP，算出1个人时的结果到41个人时的结果
-	for (let i = 1; i <= n; i++) {
-		answer = (answer + m) % i
-	}
-	return answer + 1
+    let answer = 0
+    // DP，算出1个人时的结果到41个人时的结果
+    for (let i = 1; i <= n; i++) {
+        answer = (answer + m) % i
+    }
+    return answer + 1
 }
 
 console.log(josephus(41, 2)) // 19

@@ -11,14 +11,14 @@
  * @return {number}
  */
 var maxNumOfMarkedIndices = function (nums) {
-	// 排序 + 双指针
-	// 先排序，再用小数和大数配对
-	nums.sort((a, b) => a - b)
-	let i = 0
-	for (let j = Math.floor((nums.length + 1) / 2); j < nums.length; j++) {
-		if (nums[i] * 2 <= nums[j]) i++
-	}
-	return i * 2
+    // 排序 + 双指针
+    // 先排序，再用小数和大数配对
+    nums.sort((a, b) => a - b)
+    let i = 0
+    for (let j = Math.floor((nums.length + 1) / 2); j < nums.length; j++) {
+        if (nums[i] * 2 <= nums[j]) i++
+    }
+    return i * 2
 }
 
 // 第一次操作中，选择 i = 2 和 j = 1 ，操作可以执行的原因是 2 * nums[2] <= nums[1] ，标记下标 2 和 1 。

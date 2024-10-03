@@ -10,22 +10,22 @@
  * @return {number}
  */
 var maximumLength = function (nums, k) {
-	// DP+哈希表，同3176题，但超时，需要优化掉一层遍历
+    // DP+哈希表，同3176题，但超时，需要优化掉一层遍历
     // https://leetcode.cn/problems/find-the-maximum-length-of-a-good-subsequence-ii/solutions/2805142/dong-tai-gui-hua-ha-xi-biao-by-oamuuvyi-maj1/?envType=daily-question&envId=2024-09-07
-	const numDp = new Map()
-	const maxLength = new Array(k + 1).fill(0)
-	for (let num of nums) {
-		if (!numDp.has(num)) numDp.set(num, new Array(k + 1).fill(0))
-		const dp = numDp.get(num)
-		for (let i = k; i >= 0; i--) {
-			dp[i]++
-			if (i > 0) {
-				dp[i] = Math.max(dp[i], maxLength[i - 1] + 1)
-			}
-			maxLength[i] = Math.max(maxLength[i], dp[i])
-		}
-	}
-	return maxLength[k]
+    const numDp = new Map()
+    const maxLength = new Array(k + 1).fill(0)
+    for (let num of nums) {
+        if (!numDp.has(num)) numDp.set(num, new Array(k + 1).fill(0))
+        const dp = numDp.get(num)
+        for (let i = k; i >= 0; i--) {
+            dp[i]++
+            if (i > 0) {
+                dp[i] = Math.max(dp[i], maxLength[i - 1] + 1)
+            }
+            maxLength[i] = Math.max(maxLength[i], dp[i])
+        }
+    }
+    return maxLength[k]
 }
 
 console.log(maximumLength([1, 2, 1, 1, 3], 2)) // 4

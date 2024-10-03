@@ -15,43 +15,43 @@
  * @return {number}
  */
 var findJudge = function (n, trust) {
-	// 图论，也可以是模拟题：
-	// 1. 法官不存在于trust数组
-	// 2. 法官被n-1个人信任
-	// 3. 找出法官
-	// 模拟：
-	// 1: -1 -1
-	// 2: -1 -1
-	// 3: +1 +1 +1 (不存在于trust数组，被n-1个人信任)
-	// 4: +1 +1 -1
-	// 注意村民编号从1开始
-	const people = new Array(n + 1).fill(0)
-	for (let [a, b] of trust) {
-		people[a]--
-		people[b]++
-	}
-	// 找出法官
-	for (let i = 1; i <= n; i++) {
-		if (people[i] === n - 1) return i
-	}
-	return -1
+    // 图论，也可以是模拟题：
+    // 1. 法官不存在于trust数组
+    // 2. 法官被n-1个人信任
+    // 3. 找出法官
+    // 模拟：
+    // 1: -1 -1
+    // 2: -1 -1
+    // 3: +1 +1 +1 (不存在于trust数组，被n-1个人信任)
+    // 4: +1 +1 -1
+    // 注意村民编号从1开始
+    const people = new Array(n + 1).fill(0)
+    for (let [a, b] of trust) {
+        people[a]--
+        people[b]++
+    }
+    // 找出法官
+    for (let i = 1; i <= n; i++) {
+        if (people[i] === n - 1) return i
+    }
+    return -1
 }
 
 console.log(findJudge(1, [])) // 1
 
 console.log(
-	findJudge(4, [
-		[1, 3],
-		[1, 4],
-		[2, 3],
-		[2, 4],
-		[4, 3],
-	])
+    findJudge(4, [
+        [1, 3],
+        [1, 4],
+        [2, 3],
+        [2, 4],
+        [4, 3],
+    ])
 ) // 3
 
 console.log(
-	findJudge(3, [
-		[1, 3],
-		[2, 3],
-	])
+    findJudge(3, [
+        [1, 3],
+        [2, 3],
+    ])
 ) // 3

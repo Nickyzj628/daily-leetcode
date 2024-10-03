@@ -15,19 +15,19 @@
  * @return {number}
  */
 var mincostTickets = function (days, costs) {
-	// DFS + DP
-	// dfs(i) = min(dfs(i-1)+costs[0], dfs(i-7)+costs[1], dfs(i-30)+costs[2])
-	const memorizedDFS = new Array(days.at(-1)).fill(0)
-	const dfs = (i) => {
-		// 边界条件
-		if (i <= 0) return 0
-		if (memorizedDFS[i] > 0) return memorizedDFS[i]
-		// DFS
-		if (!days.includes(i)) memorizedDFS[i] = dfs(i - 1)
-		else memorizedDFS[i] = Math.min(dfs(i - 1) + costs[0], dfs(i - 7) + costs[1], dfs(i - 30) + costs[2])
-		return memorizedDFS[i]
-	}
-	return dfs(days.at(-1))
+    // DFS + DP
+    // dfs(i) = min(dfs(i-1)+costs[0], dfs(i-7)+costs[1], dfs(i-30)+costs[2])
+    const memorizedDFS = new Array(days.at(-1)).fill(0)
+    const dfs = (i) => {
+        // 边界条件
+        if (i <= 0) return 0
+        if (memorizedDFS[i] > 0) return memorizedDFS[i]
+        // DFS
+        if (!days.includes(i)) memorizedDFS[i] = dfs(i - 1)
+        else memorizedDFS[i] = Math.min(dfs(i - 1) + costs[0], dfs(i - 7) + costs[1], dfs(i - 30) + costs[2])
+        return memorizedDFS[i]
+    }
+    return dfs(days.at(-1))
 }
 
 // 例如，这里有一种购买通行证的方法，可以让你完成你的旅行计划：

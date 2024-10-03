@@ -10,16 +10,16 @@
  * @return {number}
  */
 var maxScoreSightseeingPair = function (values) {
-	// DP
-	// 观光得分 = (values[i]+i) + (values[j]-j) = vi+vj
-	// 状态转移方程 = max(vi) + vj
-	let answer = 0
-	let maxVi = values[0]
-	for (let j = 1; j < values.length; j++) {
-		answer = Math.max(answer, maxVi + values[j] - j)
-		maxVi = Math.max(maxVi, values[j] + j)
-	}
-	return answer
+    // DP
+    // 观光得分 = (values[i]+i) + (values[j]-j) = vi+vj
+    // 状态转移方程 = max(vi) + vj
+    let answer = 0
+    let maxVi = values[0]
+    for (let j = 1; j < values.length; j++) {
+        answer = Math.max(answer, maxVi + values[j] - j)
+        maxVi = Math.max(maxVi, values[j] + j)
+    }
+    return answer
 }
 
 // i = 0, j = 2, values[i] + values[j] + i - j = 8 + 5 + 0 - 2 = 11

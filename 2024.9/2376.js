@@ -8,8 +8,6 @@
  * @param {number} n
  * @return {number}
  */
-var countSpecialNumbers = function (n) {
-    
-}
+var countSpecialNumbers = function (n) {}
 
 console.log(countSpecialNumbers(20)) // 19。1 到 20 之间所有整数除了 11 以外都是特殊整数。所以总共有 19 个特殊整数。

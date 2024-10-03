@@ -13,24 +13,24 @@
  * @return {number}
  */
 var minSpeedOnTime = function (dist, hour) {
-	// 示例3的特殊判断
-	if (dist.length > Math.ceil(hour)) return -1
-	// 二分查找，时速范围[1, 10^7]
-	let i = 1
-	let j = 10 ** 7
-	while (i < j) {
-		const v = Math.floor((i + j) / 2)
-		// 枚举距离算出总时间
-		let cost = 0
-		for (var d = 0; d < dist.length - 1; d++) {
-			cost += Math.ceil(dist[d] / v)
-		}
-		cost += dist[d] / v
-		// 判断条件，缩小查找范围
-		if (cost <= hour) j = v
-		else i = v + 1
-	}
-	return i
+    // 示例3的特殊判断
+    if (dist.length > Math.ceil(hour)) return -1
+    // 二分查找，时速范围[1, 10^7]
+    let i = 1
+    let j = 10 ** 7
+    while (i < j) {
+        const v = Math.floor((i + j) / 2)
+        // 枚举距离算出总时间
+        let cost = 0
+        for (var d = 0; d < dist.length - 1; d++) {
+            cost += Math.ceil(dist[d] / v)
+        }
+        cost += dist[d] / v
+        // 判断条件，缩小查找范围
+        if (cost <= hour) j = v
+        else i = v + 1
+    }
+    return i
 }
 
 // 速度为 1 时：

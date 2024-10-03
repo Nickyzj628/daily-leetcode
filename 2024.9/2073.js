@@ -12,16 +12,16 @@
  * @return {number}
  */
 var timeRequiredToBuy = function (tickets, k) {
-	// 一次遍历
-	// k人买n张票时，他前面的人最多买n张，后面的人最多买n-1张
-	let answer = 0
-	const pivot = tickets[k]
-	for (let i = 0; i < tickets.length; i++) {
-		const ticket = tickets[i]
-		if (i <= k) answer += Math.min(ticket, pivot)
-		else answer += Math.min(ticket, pivot - 1)
-	}
-	return answer
+    // 一次遍历
+    // k人买n张票时，他前面的人最多买n张，后面的人最多买n-1张
+    let answer = 0
+    const pivot = tickets[k]
+    for (let i = 0; i < tickets.length; i++) {
+        const ticket = tickets[i]
+        if (i <= k) answer += Math.min(ticket, pivot)
+        else answer += Math.min(ticket, pivot - 1)
+    }
+    return answer
 }
 
 console.log(timeRequiredToBuy([2, 3, 2, 4], 2)) // 7

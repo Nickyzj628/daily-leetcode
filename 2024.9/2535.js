@@ -12,18 +12,18 @@
  * @return {number}
  */
 var differenceOfSum = function (nums) {
-	// 元素和不可能小于数位和，不用加绝对值
-	let answer = 0
-	for (let num of nums) {
-		// +元素和
-		answer += num
-		// -数位和
-		while (num) {
-			answer -= num % 10
-			num = Math.trunc(num / 10)
-		}
-	}
-	return answer
+    // 元素和不可能小于数位和，不用加绝对值
+    let answer = 0
+    for (let num of nums) {
+        // +元素和
+        answer += num
+        // -数位和
+        while (num) {
+            answer -= num % 10
+            num = Math.trunc(num / 10)
+        }
+    }
+    return answer
 }
 
 // nums 的元素和是 1 + 15 + 6 + 3 = 25 。

@@ -13,18 +13,18 @@ import { MinPriorityQueue } from "@datastructures-js/priority-queue"
  * @param {number} n
  */
 var SeatManager = function (n) {
-	// 最小堆（力扣内置）
-	this.queue = new MinPriorityQueue()
-	for (let i = 1; i <= n; i++) {
-		this.queue.enqueue(i)
-	}
+    // 最小堆（力扣内置）
+    this.queue = new MinPriorityQueue()
+    for (let i = 1; i <= n; i++) {
+        this.queue.enqueue(i)
+    }
 }
 
 /**
  * @return {number}
  */
 SeatManager.prototype.reserve = function () {
-	return this.queue.dequeue().element
+    return this.queue.dequeue().element
 }
 
 /**
@@ -32,7 +32,7 @@ SeatManager.prototype.reserve = function () {
  * @return {void}
  */
 SeatManager.prototype.unreserve = function (seatNumber) {
-	this.queue.enqueue(seatNumber)
+    this.queue.enqueue(seatNumber)
 }
 
 const seatManager = new SeatManager(5) // 初始化 SeatManager ，有 5 个座位。

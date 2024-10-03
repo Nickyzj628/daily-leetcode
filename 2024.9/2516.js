@@ -10,28 +10,28 @@
  * @return {number}
  */
 var takeCharacters = function (s, k) {
-	// 滑动窗口，把问题转换为：在保证左右两侧共有k个a、b、c时，维护最长的中间子串
-	// 初始化两侧字符数
-	const counts = [0, 0, 0]
-	for (let char of s) {
-		counts[char.charCodeAt() - 97]++
-	}
-	// 判断字符数是否满足条件
-	const invalid = () => counts.some((count) => count < k)
-	if (invalid()) return -1
-	// 寻找最长中间子串
-	let answer = s.length
-	for (let i = 0, j = 0; j < s.length; j++) {
-		const charJ = s[j]
-		counts[charJ.charCodeAt() - 97]--
-		while (invalid()) {
-			const charI = s[i++]
-			counts[charI.charCodeAt() - 97]++
-		}
-		// 更新答案为min(字符串全长-当前中间窗口长度)
-		answer = Math.min(answer, s.length - (j - i + 1))
-	}
-	return answer
+    // 滑动窗口，把问题转换为：在保证左右两侧共有k个a、b、c时，维护最长的中间子串
+    // 初始化两侧字符数
+    const counts = [0, 0, 0]
+    for (let char of s) {
+        counts[char.charCodeAt() - 97]++
+    }
+    // 判断字符数是否满足条件
+    const invalid = () => counts.some((count) => count < k)
+    if (invalid()) return -1
+    // 寻找最长中间子串
+    let answer = s.length
+    for (let i = 0, j = 0; j < s.length; j++) {
+        const charJ = s[j]
+        counts[charJ.charCodeAt() - 97]--
+        while (invalid()) {
+            const charI = s[i++]
+            counts[charI.charCodeAt() - 97]++
+        }
+        // 更新答案为min(字符串全长-当前中间窗口长度)
+        answer = Math.min(answer, s.length - (j - i + 1))
+    }
+    return answer
 }
 
 // 从 s 的左侧取三个字符，现在共取到两个字符 'a' 、一个字符 'b' 。

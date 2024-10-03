@@ -15,31 +15,31 @@
  * @return {number}
  */
 var latestTimeCatchTheBus = function (buses, passengers, capacity) {
-	// [10,20,30]
-	buses.sort((a, b) => a - b)
-	// [4,11,13,19,21,25,26]
-	passengers.sort((a, b) => a - b)
+    // [10,20,30]
+    buses.sort((a, b) => a - b)
+    // [4,11,13,19,21,25,26]
+    passengers.sort((a, b) => a - b)
 
-	// 乘客上车
-	let c = 0
-	let p = 0
-	for (let bus of buses) {
-		c = 0
-		while (c < capacity && p < passengers.length) {
-			if (passengers[p] > bus) break
-			p++
-			c++
-		}
-	}
-	p--
+    // 乘客上车
+    let c = 0
+    let p = 0
+    for (let bus of buses) {
+        c = 0
+        while (c < capacity && p < passengers.length) {
+            if (passengers[p] > bus) break
+            p++
+            c++
+        }
+    }
+    p--
 
-	// p是最后一个上车的乘客，如果车会坐满，就和他插队，否则就赶在最后一辆车到达时上车
-	let answer = c === capacity ? passengers[p] : buses.at(-1)
-	while (answer === passengers[p]) {
-		answer--
-		p--
-	}
-	return answer
+    // p是最后一个上车的乘客，如果车会坐满，就和他插队，否则就赶在最后一辆车到达时上车
+    let answer = c === capacity ? passengers[p] : buses.at(-1)
+    while (answer === passengers[p]) {
+        answer--
+        p--
+    }
+    return answer
 }
 
 // 第 1 辆公交车载着第 1 位乘客。

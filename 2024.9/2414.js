@@ -10,14 +10,14 @@
  * @return {number}
  */
 var longestContinuousSubstring = function (s) {
-	// 字符串转ASCII码，answer记录最大长度，count记录当前长度
-	let answer = 1
-	let count = 1
-	for (let i = 1; i < s.length; i++) {
-		if (s[i].charCodeAt() - s[i - 1].charCodeAt() === 1) answer = Math.max(answer, ++count)
-		else count = 1
-	}
-	return answer
+    // 字符串转ASCII码，answer记录最大长度，count记录当前长度
+    let answer = 1
+    let count = 1
+    for (let i = 1; i < s.length; i++) {
+        if (s[i].charCodeAt() - s[i - 1].charCodeAt() === 1) answer = Math.max(answer, ++count)
+        else count = 1
+    }
+    return answer
 }
 
 console.log(longestContinuousSubstring("abacaba")) // 2

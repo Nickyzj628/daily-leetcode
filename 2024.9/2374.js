@@ -11,16 +11,16 @@
  * @return {number}
  */
 var edgeScore = function (edges) {
-	// 遍历，统计所有入点，求入点总和最大的节点
-	let answer = 0
-	const indegree = new Array(edges.length).fill(0)
-	for (let i = 0; i < edges.length; i++) {
-		const toEdge = edges[i]
-		indegree[toEdge] += i
-		if (indegree[toEdge] < indegree[answer]) continue
-		if (indegree[toEdge] > indegree[answer] || toEdge < answer) answer = toEdge
-	}
-	return answer
+    // 遍历，统计所有入点，求入点总和最大的节点
+    let answer = 0
+    const indegree = new Array(edges.length).fill(0)
+    for (let i = 0; i < edges.length; i++) {
+        const toEdge = edges[i]
+        indegree[toEdge] += i
+        if (indegree[toEdge] < indegree[answer]) continue
+        if (indegree[toEdge] > indegree[answer] || toEdge < answer) answer = toEdge
+    }
+    return answer
 }
 
 console.log(edgeScore([1, 0, 0, 0, 0, 7, 7, 5])) // 7
