@@ -11,6 +11,7 @@
 1. [983. 最低票价](https://github.com/Nickyzj628/daily_leetcode/blob/main/2024.10/983.js)
 2. [1870. 准时到达的列车最小时速](https://github.com/Nickyzj628/daily_leetcode/blob/main/2024.10/1870.js)
 3. [1928. 规定时间内到达终点的最小花费](https://github.com/Nickyzj628/daily_leetcode/blob/main/2024.10/1928.js)
+4. [1227. 飞机座位分配概率](https://github.com/Nickyzj628/daily_leetcode/blob/main/2024.10/1227.js)
 
 ## 2024.9
 
