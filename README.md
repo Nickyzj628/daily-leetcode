@@ -15,6 +15,7 @@
 5. [2187. 完成旅途的最少时间](https://github.com/Nickyzj628/daily_leetcode/blob/main/2024.10/2187.js)
 6. [134. 加油站](https://github.com/Nickyzj628/daily_leetcode/blob/main/2024.10/134.js)
 7. [871. 最低加油次数](https://github.com/Nickyzj628/daily_leetcode/blob/main/2024.10/871.js)
+8. [1436. 旅行终点站](https://github.com/Nickyzj628/daily_leetcode/blob/main/2024.10/1436.js)
 
 ## 2024.9
 
