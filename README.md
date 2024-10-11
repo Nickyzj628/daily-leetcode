@@ -18,6 +18,8 @@
 8. [1436. 旅行终点站](https://github.com/Nickyzj628/daily_leetcode/blob/main/2024.10/1436.js)
 9. ~~[3171. 找到按位或最接近 K 的子数组](https://leetcode.cn/problems/find-subarray-with-bitwise-or-closest-to-k/)~~（学完位运算再做）
 10. [3162. 优质数对的总数 I](https://github.com/Nickyzj628/daily_leetcode/blob/main/2024.10/3162.js)
+11. ~~[3164. 优质数对的总数 II](https://leetcode.cn/problems/find-the-number-of-good-pairs-ii/description/)~~（数学题，跳过）
+12. [3158. 求出出现两次数字的 XOR 值](https://github.com/Nickyzj628/daily_leetcode/blob/main/2024.10/3158.js)
 
 ## 2024.9
 
