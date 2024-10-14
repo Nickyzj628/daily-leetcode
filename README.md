@@ -21,6 +21,7 @@
 11. ~~[3164. 优质数对的总数 II](https://leetcode.cn/problems/find-the-number-of-good-pairs-ii/description/)~~（数学题，跳过）
 12. [3158. 求出出现两次数字的 XOR 值](https://github.com/Nickyzj628/daily_leetcode/blob/main/2024.10/3158.js)
 13. [1884. 鸡蛋掉落-两枚鸡蛋](https://github.com/Nickyzj628/daily_leetcode/blob/main/2024.10/1884.js)
+14. [887. 鸡蛋掉落](https://github.com/Nickyzj628/daily_leetcode/blob/main/2024.10/887.js)（超时）
 
 ## 2024.9
 
