@@ -22,6 +22,7 @@
 12. [3158. 求出出现两次数字的 XOR 值](https://github.com/Nickyzj628/daily_leetcode/blob/main/2024.10/3158.js)
 13. [1884. 鸡蛋掉落-两枚鸡蛋](https://github.com/Nickyzj628/daily_leetcode/blob/main/2024.10/1884.js)
 14. [887. 鸡蛋掉落](https://github.com/Nickyzj628/daily_leetcode/blob/main/2024.10/887.js)（超时）
+15. [3200. 三角形的最大高度](https://github.com/Nickyzj628/daily_leetcode/blob/main/2024.10/3200.js)（超时）
 
 ## 2024.9
 
