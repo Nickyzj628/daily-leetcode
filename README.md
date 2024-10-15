@@ -23,6 +23,7 @@
 13. [1884. 鸡蛋掉落-两枚鸡蛋](https://github.com/Nickyzj628/daily_leetcode/blob/main/2024.10/1884.js)
 14. [887. 鸡蛋掉落](https://github.com/Nickyzj628/daily_leetcode/blob/main/2024.10/887.js)（超时）
 15. [3200. 三角形的最大高度](https://github.com/Nickyzj628/daily_leetcode/blob/main/2024.10/3200.js)
+16. [3194. 最小元素和最大元素的最小平均值](https://github.com/Nickyzj628/daily_leetcode/blob/main/2024.10/3194.js)
 
 ## 2024.9
 
