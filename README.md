@@ -28,6 +28,7 @@
 18. [3191. 使二进制数组全部等于 1 的最少操作次数 I](https://github.com/Nickyzj628/daily_leetcode/blob/main/2024.10/3191.js)
 19. [3192. 使二进制数组全部等于 1 的最少操作次数 II](https://github.com/Nickyzj628/daily_leetcode/blob/main/2024.10/3192.js)
 20. [908. 最小差值 I](https://github.com/Nickyzj628/daily_leetcode/blob/main/2024.10/908.js)
+21. [910. 最小差值 II](https://github.com/Nickyzj628/daily_leetcode/blob/main/2024.10/910.js)
 
 ## 2024.9
 
