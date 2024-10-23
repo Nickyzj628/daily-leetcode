@@ -31,6 +31,7 @@
 21. [910. 最小差值 II](https://github.com/Nickyzj628/daily_leetcode/blob/main/2024.10/910.js)
 22. [3184. 构成整天的下标对数目 I](https://github.com/Nickyzj628/daily_leetcode/blob/main/2024.10/3184.js)
 23. [3184. 构成整天的下标对数目 II](https://github.com/Nickyzj628/daily_leetcode/blob/main/2024.10/3184.js)
+24. [3175. 找到连续赢 K 场比赛的第一位玩家](https://github.com/Nickyzj628/daily_leetcode/blob/main/2024.10/3175.js)
 
 ## 2024.9
 
