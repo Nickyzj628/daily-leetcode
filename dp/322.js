@@ -12,7 +12,7 @@
  */
 var coinChange = function (coins, amount) {
     // 缓存DP计算结果，去除重复计算，从而优化时间复杂度到O(amount * coins.length)
-    const memo = new Array(amount + 1).fill(-Infinity);
+    const memo = new Array(amount + 1);
 
     /**
      * dp(amount): 凑出amount所需的最少硬币个数 = min(this, dp(amount-coin)+1)
@@ -24,7 +24,7 @@ var coinChange = function (coins, amount) {
         // 可能递归计算到负数
         if (amount < 0) return -1;
         // 避免重复计算
-        if (memo[amount] !== -Infinity) return memo[amount];
+        if (memo[amount]) return memo[amount];
 
         let answer = Infinity;
         for (let coin of coins) {
