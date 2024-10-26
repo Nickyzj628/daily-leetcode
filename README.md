@@ -38,6 +38,8 @@
 22. [3184. 构成整天的下标对数目 I](https://github.com/Nickyzj628/daily_leetcode/blob/main/2024.10/3184.js)
 23. [3184. 构成整天的下标对数目 II](https://github.com/Nickyzj628/daily_leetcode/blob/main/2024.10/3184.js)
 24. [3175. 找到连续赢 K 场比赛的第一位玩家](https://github.com/Nickyzj628/daily_leetcode/blob/main/2024.10/3175.js)
+25. ~~[3180. 执行操作可获得的最大总奖励 I](https://leetcode.cn/problems/maximum-total-reward-using-operations-i/)~~（学完01背包就做）
+26. ~~[3181. 执行操作可获得的最大总奖励 II](https://leetcode.cn/problems/maximum-total-reward-using-operations-ii/)~~（同上）
 
 ## 2024.9
 
