@@ -24,13 +24,13 @@
 8. [1436. 旅行终点站](https://github.com/Nickyzj628/daily_leetcode/blob/main/2024.10/1436.js)
 9. ~~[3171. 找到按位或最接近 K 的子数组](https://leetcode.cn/problems/find-subarray-with-bitwise-or-closest-to-k/)~~（学完位运算再做）
 10. [3162. 优质数对的总数 I](https://github.com/Nickyzj628/daily_leetcode/blob/main/2024.10/3162.js)
-11. 3164. 优质数对的总数 II
+11. 3164\. 优质数对的总数 II
 12. [3158. 求出出现两次数字的 XOR 值](https://github.com/Nickyzj628/daily_leetcode/blob/main/2024.10/3158.js)
 13. [1884. 鸡蛋掉落-两枚鸡蛋](https://github.com/Nickyzj628/daily_leetcode/blob/main/2024.10/1884.js)
 14. [887. 鸡蛋掉落](https://github.com/Nickyzj628/daily_leetcode/blob/main/2024.10/887.js)（超时）
 15. [3200. 三角形的最大高度](https://github.com/Nickyzj628/daily_leetcode/blob/main/2024.10/3200.js)
 16. [3194. 最小元素和最大元素的最小平均值](https://github.com/Nickyzj628/daily_leetcode/blob/main/2024.10/3194.js)
-17. 3193. 统计逆序对的数目
+17. 3193\. 统计逆序对的数目
 18. [3191. 使二进制数组全部等于 1 的最少操作次数 I](https://github.com/Nickyzj628/daily_leetcode/blob/main/2024.10/3191.js)
 19. [3192. 使二进制数组全部等于 1 的最少操作次数 II](https://github.com/Nickyzj628/daily_leetcode/blob/main/2024.10/3192.js)
 20. [908. 最小差值 I](https://github.com/Nickyzj628/daily_leetcode/blob/main/2024.10/908.js)
@@ -39,9 +39,9 @@
 23. [3184. 构成整天的下标对数目 II](https://github.com/Nickyzj628/daily_leetcode/blob/main/2024.10/3184.js)
 24. [3175. 找到连续赢 K 场比赛的第一位玩家](https://github.com/Nickyzj628/daily_leetcode/blob/main/2024.10/3175.js)
 25. [3180. 执行操作可获得的最大总奖励 I](https://github.com/Nickyzj628/daily_leetcode/blob/main/2024.10/3180.js)
-26. 3181. 执行操作可获得的最大总奖励 II
+26. 3181\. 执行操作可获得的最大总奖励 II
 27. [684. 冗余连接](https://github.com/Nickyzj628/daily_leetcode/blob/main/2024.10/684.js)
-28. 685. 冗余连接 II
+28. 685\. 冗余连接 II
 
 ## 2024.9
 
@@ -54,7 +54,7 @@
 7. [3177. 求出最长好子序列 II](https://github.com/Nickyzj628/daily_leetcode/blob/main/2024.9/3177.js)
 8. [977. 有序数组的平方](https://github.com/Nickyzj628/daily_leetcode/blob/main/2024.9/977.js)
 9. [2181. 合并零之间的节点](https://github.com/Nickyzj628/daily_leetcode/blob/main/2024.9/2181.js)
-10. 2552. 统计上升四元组
+10. 2552\. 统计上升四元组
 11. [2555. 两个线段获得的最多奖品](https://github.com/Nickyzj628/daily_leetcode/blob/main/2024.9/2555.js)
 12. [2576. 求出最多标记下标](https://github.com/Nickyzj628/daily_leetcode/blob/main/2024.9/2555.js)
 13. [2398. 预算内的最多机器人数目](https://github.com/Nickyzj628/daily_leetcode/blob/main/2024.9/2398.js)
