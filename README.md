@@ -42,6 +42,7 @@
 26. 3181\. 执行操作可获得的最大总奖励 II
 27. [684. 冗余连接](https://github.com/Nickyzj628/daily_leetcode/blob/main/2024.10/684.js)
 28. 685\. 冗余连接 II
+29. [3211. 生成不含相邻零的二进制字符串](https://github.com/Nickyzj628/daily_leetcode/blob/main/2024.10/3211.js)
 
 ## 2024.9
 
