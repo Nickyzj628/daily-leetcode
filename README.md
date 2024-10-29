@@ -43,6 +43,7 @@
 27. [684. 冗余连接](https://github.com/Nickyzj628/daily_leetcode/blob/main/2024.10/684.js)
 28. 685\. 冗余连接 II
 29. [3211. 生成不含相邻零的二进制字符串](https://github.com/Nickyzj628/daily_leetcode/blob/main/2024.10/3211.js)
+30. [3216. 交换后字典序最小的字符串](https://github.com/Nickyzj628/daily_leetcode/blob/main/2024.10/3216.js)
 
 ## 2024.9
 
