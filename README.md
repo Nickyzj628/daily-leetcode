@@ -12,6 +12,10 @@
 
 -   /frontend: 前端框架算法
 
+## 2024.11
+
+1. [3259. 超级饮料的最大强化能量](https://github.com/Nickyzj628/daily_leetcode/blob/main/2024.11/3259.js)
+
 ## 2024.10
 
 1. [983. 最低票价](https://github.com/Nickyzj628/daily_leetcode/blob/main/2024.10/983.js)
@@ -44,6 +48,7 @@
 28. 685\. 冗余连接 II
 29. [3211. 生成不含相邻零的二进制字符串](https://github.com/Nickyzj628/daily_leetcode/blob/main/2024.10/3211.js)
 30. [3216. 交换后字典序最小的字符串](https://github.com/Nickyzj628/daily_leetcode/blob/main/2024.10/3216.js)
+31. ~~[3165. 不包含相邻元素的子序列的最大和](https://leetcode.cn/problems/maximum-sum-of-subsequence-with-non-adjacent-elements/)~~（学完线段树再做）
 
 ## 2024.9
 
