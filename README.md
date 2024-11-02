@@ -15,6 +15,7 @@
 ## 2024.11
 
 1. [3259. 超级饮料的最大强化能量](https://github.com/Nickyzj628/daily_leetcode/blob/main/2024.11/3259.js)
+2. ~~[3226. 使两个整数相等的位更改次数](https://leetcode.cn/problems/number-of-bit-changes-to-make-two-integers-equal/)~~（学完位运算再做）
 
 ## 2024.10
 
