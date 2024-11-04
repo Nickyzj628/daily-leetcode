@@ -20,6 +20,7 @@
 2. ~~[3226. 使两个整数相等的位更改次数](https://leetcode.cn/problems/number-of-bit-changes-to-make-two-integers-equal/)~~（学完位运算再做）
 3. [638. 大礼包](https://github.com/Nickyzj628/daily_leetcode/blob/main/2024.11/638.js)
 4. [633. 平方数之和](https://github.com/Nickyzj628/daily_leetcode/blob/main/2024.11/633.js)
+5. [3222. 求出硬币游戏的赢家](https://github.com/Nickyzj628/daily_leetcode/blob/main/2024.11/3222.js)
 
 ## 2024.10
 
