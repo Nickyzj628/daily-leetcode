@@ -22,6 +22,7 @@
 4. [633. 平方数之和](https://github.com/Nickyzj628/daily_leetcode/blob/main/2024.11/633.js)
 5. [3222. 求出硬币游戏的赢家](https://github.com/Nickyzj628/daily_leetcode/blob/main/2024.11/3222.js)
 6. [3254. 长度为 K 的子数组的能量值 I](https://github.com/Nickyzj628/daily_leetcode/blob/main/2024.11/3254.js)
+7. [3255. 长度为 K 的子数组的能量值 II](https://github.com/Nickyzj628/daily_leetcode/blob/main/2024.11/3255.js)
 
 ## 2024.10
 
