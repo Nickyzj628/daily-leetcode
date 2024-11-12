@@ -26,6 +26,8 @@
 8. 判断矩形的两个角落是否可达
 9. [3242. 设计相邻元素求和服务](https://github.com/Nickyzj628/daily_leetcode/blob/main/2024.11/3242.js)
 10. [540. 有序数组中的单一元素](https://github.com/Nickyzj628/daily_leetcode/blob/main/2024.11/540.js)
+11. ~~[1547. 切棍子的最小成本](https://github.com/Nickyzj628/daily_leetcode/blob/main/2024.11/1547.js)~~（学会戳气球就做）
+12. [3258. 统计满足 K 约束的子字符串数量 I](https://github.com/Nickyzj628/daily_leetcode/blob/main/2024.11/3258.js)
 
 ## 2024.10
 
