@@ -28,6 +28,8 @@
 10. [540. 有序数组中的单一元素](https://github.com/Nickyzj628/daily_leetcode/blob/main/2024.11/540.js)
 11. ~~[1547. 切棍子的最小成本](https://github.com/Nickyzj628/daily_leetcode/blob/main/2024.11/1547.js)~~（学会戳气球就做）
 12. [3258. 统计满足 K 约束的子字符串数量 I](https://github.com/Nickyzj628/daily_leetcode/blob/main/2024.11/3258.js)
+13. 3261\. 统计满足 K 约束的子字符串数量 II
+14. [3239. 最少翻转次数使二进制矩阵回文 I](https://github.com/Nickyzj628/daily_leetcode/blob/main/2024.11/3239.js)
 
 ## 2024.10
 
