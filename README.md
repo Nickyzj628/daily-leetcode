@@ -33,6 +33,7 @@
 15. [3239. 最少翻转次数使二进制矩阵回文 I](https://github.com/Nickyzj628/daily_leetcode/blob/main/2024.11/3239.js)
 16. 3240\. 最少翻转次数使二进制矩阵回文 II
 17. 825.\ 适龄的朋友
+18. [661. 图片平滑器](https://github.com/Nickyzj628/daily_leetcode/blob/main/2024.11/661.js)
 
 ## 2024.10
 
