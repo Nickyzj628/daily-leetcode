@@ -13,7 +13,26 @@
  * @return {number}
  */
 var minCost = function (n, cuts) {
-  
+  // 同312. 戳气球
+  // dp[i][j]: 切(i,j)所需最小成本 = 枚举k∈(i,j)，计算min(dp[i][j], dp[i][k] + dp[k][j])
+  const m = cuts.length;
+  const dp = Array.from(Array(m + 2), () => Array(m + 2).fill(0));
+  cuts = [0, ...cuts, n].sort((a, b) => a - b);
+
+  // 模拟首次遍历情况，方便理解i、j、k初始值和条件
+  // [0, 1, 3, 4, 5, 7]
+  //           i  k  j
+  for (let i = m - 1; i >= 0; i--) {
+    for (let j = i + 2; j < m + 2; j++) {
+      let res = Infinity;
+      for (let k = i + 1; k < j; k++) {
+        res = Math.min(res, dp[i][k] + dp[k][j]);
+      }
+      dp[i][j] = res + cuts[j] - cuts[i];
+    }
+  }
+
+  return dp[0][m + 1];
 };
 
 console.log(minCost(7, [1, 3, 4, 5]));  // 16

@@ -26,12 +26,13 @@
 8. 判断矩形的两个角落是否可达
 9. [3242. 设计相邻元素求和服务](https://github.com/Nickyzj628/daily_leetcode/blob/main/2024.11/3242.js)
 10. [540. 有序数组中的单一元素](https://github.com/Nickyzj628/daily_leetcode/blob/main/2024.11/540.js)
-11. ~~[1547. 切棍子的最小成本](https://github.com/Nickyzj628/daily_leetcode/blob/main/2024.11/1547.js)~~（学会戳气球就做）
+11. [1547. 切棍子的最小成本](https://github.com/Nickyzj628/daily_leetcode/blob/main/2024.11/1547.js)
 12. [3258. 统计满足 K 约束的子字符串数量 I](https://github.com/Nickyzj628/daily_leetcode/blob/main/2024.11/3258.js)
 13. 3261\. 统计满足 K 约束的子字符串数量 II
 14. 3249\. 统计好节点的数目
 15. [3239. 最少翻转次数使二进制矩阵回文 I](https://github.com/Nickyzj628/daily_leetcode/blob/main/2024.11/3239.js)
 16. 3240\. 最少翻转次数使二进制矩阵回文 II
+17. 825.\ 适龄的朋友
 
 ## 2024.10
 
