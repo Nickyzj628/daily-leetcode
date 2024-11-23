@@ -37,6 +37,8 @@
 19. [3243. 新增道路查询后的最短距离 I](https://github.com/Nickyzj628/daily_leetcode/blob/main/2024.11/3243.js)
 20. 3244\. 新增道路查询后的最短距离 II
 21. [3248. 矩阵中的蛇](https://github.com/Nickyzj628/daily_leetcode/blob/main/2024.11/3248.js)
+22. 3233\. 统计不是特殊数字的数字数量
+23. [3238. 求出胜利玩家的数目](https://github.com/Nickyzj628/daily_leetcode/blob/main/2024.11/3238.js)
 
 ## 2024.10
 
