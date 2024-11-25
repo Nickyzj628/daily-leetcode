@@ -39,6 +39,9 @@
 21. [3248. 矩阵中的蛇](https://github.com/Nickyzj628/daily_leetcode/blob/main/2024.11/3248.js)
 22. 3233\. 统计不是特殊数字的数字数量
 23. [3238. 求出胜利玩家的数目](https://github.com/Nickyzj628/daily_leetcode/blob/main/2024.11/3238.js)
+24. 632\. 最小区间
+25. 743\. 网络延迟时间
+26. [3206. 交替组 I](https://github.com/Nickyzj628/daily_leetcode/blob/main/2024.11/3206.js)
 
 ## 2024.10
 
