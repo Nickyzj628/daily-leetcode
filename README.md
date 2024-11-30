@@ -42,6 +42,10 @@
 24. 632\. 最小区间
 25. 743\. 网络延迟时间
 26. [3206. 交替组 I](https://github.com/Nickyzj628/daily_leetcode/blob/main/2024.11/3206.js)
+27. 3208\. 交替组 II
+28. 3250\. 单调数组对的数目 I
+29. 3251\. 单调数组对的数目 II
+30. [3232. 判断是否可以赢得数字游戏](https://github.com/Nickyzj628/daily_leetcode/blob/main/2024.11/3232.js)
 
 ## 2024.10
 
