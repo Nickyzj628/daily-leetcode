@@ -14,6 +14,10 @@
 
 -   /frontend: 前端框架算法
 
+## 2024.12
+
+1. [51. N 皇后](https://github.com/Nickyzj628/daily_leetcode/blob/main/2024.12/51.js)
+
 ## 2024.11
 
 1. [3259. 超级饮料的最大强化能量](https://github.com/Nickyzj628/daily_leetcode/blob/main/2024.11/3259.js)
