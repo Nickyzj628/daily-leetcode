@@ -18,6 +18,7 @@
 
 1. [51. N 皇后](https://github.com/Nickyzj628/daily_leetcode/blob/main/2024.12/51.js)
 2. [52. N 皇后 II](https://github.com/Nickyzj628/daily_leetcode/blob/main/2024.12/52.js)
+3. [3274. 检查棋盘方格颜色是否相同](https://github.com/Nickyzj628/daily_leetcode/blob/main/2024.12/3274.js)
 
 ## 2024.11
 
