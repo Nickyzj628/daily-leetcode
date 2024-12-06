@@ -19,6 +19,9 @@
 1. [51. N 皇后](https://github.com/Nickyzj628/daily_leetcode/blob/main/2024.12/51.js)
 2. [52. N 皇后 II](https://github.com/Nickyzj628/daily_leetcode/blob/main/2024.12/52.js)
 3. [3274. 检查棋盘方格颜色是否相同](https://github.com/Nickyzj628/daily_leetcode/blob/main/2024.12/3274.js)
+4. 2056\. 棋盘上有效移动组合的数目
+5. 3001\. 捕获黑皇后需要的最少移动次数
+6. [999. 可以被一步捕获的棋子数](https://github.com/Nickyzj628/daily_leetcode/blob/main/2024.12/999.js)
 
 ## 2024.11
 
