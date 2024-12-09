@@ -22,6 +22,9 @@
 4. 2056\. 棋盘上有效移动组合的数目
 5. 3001\. 捕获黑皇后需要的最少移动次数
 6. [999. 可以被一步捕获的棋子数](https://github.com/Nickyzj628/daily_leetcode/blob/main/2024.12/999.js)
+7. 688\. 骑士在棋盘上的概率
+8. 782\. 变为棋盘
+9. [1812. 判断国际象棋棋盘中一个格子的颜色](https://github.com/Nickyzj628/daily_leetcode/blob/main/2024.12/1812.js)
 
 ## 2024.11
 
