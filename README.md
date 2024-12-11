@@ -27,6 +27,7 @@
 9. [1812. 判断国际象棋棋盘中一个格子的颜色](https://github.com/Nickyzj628/daily_leetcode/blob/main/2024.12/1812.js)
 10. 935\. 骑士拨号器
 11. [2717. 半有序排列](https://github.com/Nickyzj628/daily_leetcode/blob/main/2024.12/2717.js)
+12. [2931. 购买物品的最大开销]((https://github.com/Nickyzj628/daily_leetcode/blob/main/2024.12/2931.js))
 
 ## 2024.11
 
