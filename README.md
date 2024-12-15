@@ -29,6 +29,8 @@
 11. [2717. 半有序排列](https://github.com/Nickyzj628/daily_leetcode/blob/main/2024.12/2717.js)
 12. [2931. 购买物品的最大开销](https://github.com/Nickyzj628/daily_leetcode/blob/main/2024.12/2931.js)
 13. [3264. K 次乘运算后的最终数组 I](https://github.com/Nickyzj628/daily_leetcode/blob/main/2024.12/2931.js)
+14. 3266\. K 次乘运算后的最终数组 II
+15. [1338. 数组大小减半](https://github.com/Nickyzj628/daily_leetcode/blob/main/2024.12/1338.js)
 
 ## 2024.11
 
