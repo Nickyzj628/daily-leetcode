@@ -31,6 +31,11 @@
 13. [3264. K 次乘运算后的最终数组 I](https://github.com/Nickyzj628/daily_leetcode/blob/main/2024.12/2931.js)
 14. 3266\. K 次乘运算后的最终数组 II
 15. [1338. 数组大小减半](https://github.com/Nickyzj628/daily_leetcode/blob/main/2024.12/1338.js)
+16. 1847\. 最近的房间
+17. 3291\. 形成目标字符串需要的最少字符串数 I
+18. 3292\. 形成目标字符串需要的最少字符串数 II
+19. [3285. 找到稳定山的下标](https://github.com/Nickyzj628/daily_leetcode/blob/main/2024.12/3285.js)
+
 
 ## 2024.11
 
