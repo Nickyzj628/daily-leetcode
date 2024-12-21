@@ -35,6 +35,8 @@
 17. 3291\. 形成目标字符串需要的最少字符串数 I
 18. 3292\. 形成目标字符串需要的最少字符串数 II
 19. [3285. 找到稳定山的下标](https://github.com/Nickyzj628/daily_leetcode/blob/main/2024.12/3285.js)
+20. 3138\. 同位字符串连接的最小长度
+21. [2545. 根据第 K 场考试的分数排序](https://github.com/Nickyzj628/daily_leetcode/blob/main/2024.12/2545.js)
 
 
 ## 2024.11
