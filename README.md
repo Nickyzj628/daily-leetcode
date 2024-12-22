@@ -37,7 +37,7 @@
 19. [3285. 找到稳定山的下标](https://github.com/Nickyzj628/daily_leetcode/blob/main/2024.12/3285.js)
 20. 3138\. 同位字符串连接的最小长度
 21. [2545. 根据第 K 场考试的分数排序](https://github.com/Nickyzj628/daily_leetcode/blob/main/2024.12/2545.js)
-
+22. [1387. 将整数按权重排序](https://github.com/Nickyzj628/daily_leetcode/blob/main/2024.12/1387.js)
 
 ## 2024.11
 
