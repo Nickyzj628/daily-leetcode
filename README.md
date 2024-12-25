@@ -38,6 +38,10 @@
 20. 3138\. 同位字符串连接的最小长度
 21. [2545. 根据第 K 场考试的分数排序](https://github.com/Nickyzj628/daily_leetcode/blob/main/2024.12/2545.js)
 22. [1387. 将整数按权重排序](https://github.com/Nickyzj628/daily_leetcode/blob/main/2024.12/1387.js)
+23. 855\. 考场就座
+24. 1705\. 吃苹果的最大数目
+25. 3218\. 切蛋糕的最小总开销 I
+26. [3083. 字符串及其反转中是否存在同一子字符串](https://github.com/Nickyzj628/daily_leetcode/blob/main/2024.12/3083.js)
 
 ## 2024.11
 
