@@ -42,6 +42,7 @@
 24. 1705\. 吃苹果的最大数目
 25. 3218\. 切蛋糕的最小总开销 I
 26. [3083. 字符串及其反转中是否存在同一子字符串](https://github.com/Nickyzj628/daily_leetcode/blob/main/2024.12/3083.js)
+27. [3159. 查询数组中元素的出现位置](https://github.com/Nickyzj628/daily_leetcode/blob/main/2024.12/3159.js)
 
 ## 2024.11
 
