@@ -44,6 +44,7 @@
 26. [3083. 字符串及其反转中是否存在同一子字符串](https://github.com/Nickyzj628/daily_leetcode/blob/main/2024.12/3083.js)
 27. [3159. 查询数组中元素的出现位置](https://github.com/Nickyzj628/daily_leetcode/blob/main/2024.12/3159.js)
 28. [3046. 分割数组](https://github.com/Nickyzj628/daily_leetcode/blob/main/2024.12/3046.js)
+29. [1366. 通过投票对团队排名](https://github.com/Nickyzj628/daily_leetcode/blob/main/2024.12/1366.js)
 
 ## 2024.11
 
