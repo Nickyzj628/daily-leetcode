@@ -11,6 +11,9 @@ importers:
       '@datastructures-js/priority-queue':
         specifier: 5.4.0
         version: 5.4.0
+      htm:
+        specifier: ^3.1.1
+        version: 3.1.1
 
 packages:
 
@@ -20,6 +23,9 @@ packages:
   '@datastructures-js/priority-queue@5.4.0':
     resolution: {integrity: sha512-x+EkL8tjbwBMCUyVIwsOiKnWiOvMiFAIrnWQihcO42sUZ8uc4sRsJgHAS164wnibM2kVgQUJcfvhIdssBOzxRg==}
 
+  htm@3.1.1:
+    resolution: {integrity: sha512-983Vyg8NwUE7JkZ6NmOqpCZ+sh1bKv2iYTlUkzlWmA5JD2acKoxd4KVxbMmxX/85mtfdnDmTFoNKcg5DGAvxNQ==}
+
 snapshots:
 
   '@datastructures-js/heap@3.2.0': {}
@@ -27,3 +33,5 @@ snapshots:
   '@datastructures-js/priority-queue@5.4.0':
     dependencies:
       '@datastructures-js/heap': 3.2.0
+
+  htm@3.1.1: {}
