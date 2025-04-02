@@ -6,22 +6,17 @@
  * https://leetcode.cn/problems/two-sum/description/?envType=study-plan-v2&envId=top-100-liked
  */
 
-/**
- * @param {number[]} nums
- * @param {number} target
- * @return {number[]}
- */
-var twoSum = function (nums, target) {
+function twoSum(nums: number[], target: number): number[] {
   // 哈希表
-  // 要寻找的另一个数 -> 当前数字下标
-  const map = {};
-  for (let [index, num] of nums.entries()) {
-    const index2 = map[num];
-    if (index2 !== undefined) {
+  const numIndexMap = {};
+  for (const [index2, num2] of nums.entries()) {
+    const index = numIndexMap[num2];
+    if (index !== undefined) {
       return [index, index2];
     }
-    map[target - num] = index;
+    numIndexMap[target - num2] = index2;
   }
+  return [];
 };
 
 // [0,1]
