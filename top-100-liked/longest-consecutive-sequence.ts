@@ -8,19 +8,6 @@
 function longestConsecutive(nums: number[]): number {
   let longestLength = 0;
 
-  // O(nlogn) 去重 + 排序 + 遍历
-  // const sortedDeduplicatedNums = Array.from(new Set(nums)).sort((a, b) => a - b);
-  // let length = 0;
-  // for (const [index, num] of sortedDeduplicatedNums.entries()) {
-  //   if (num === sortedDeduplicatedNums[index - 1] + 1) {
-  //     length++;
-  //   } else {
-  //     longestLength = Math.max(longestLength, length);
-  //     length = 1;
-  //   }
-  // }
-  // longestLength = Math.max(longestLength, length);
-
   // O(n) 哈希表 + 遍历
   const deduplicatedNumsSet = new Set(nums);
   for (const num of deduplicatedNumsSet) {
@@ -35,6 +22,19 @@ function longestConsecutive(nums: number[]): number {
   }
 
   return longestLength;
+
+  // O(nlogn) 去重 + 排序 + 遍历
+  // const sortedDeduplicatedNums = Array.from(new Set(nums)).sort((a, b) => a - b);
+  // let length = 0;
+  // for (const [index, num] of sortedDeduplicatedNums.entries()) {
+  //   if (num === sortedDeduplicatedNums[index - 1] + 1) {
+  //     length++;
+  //   } else {
+  //     longestLength = Math.max(longestLength, length);
+  //     length = 1;
+  //   }
+  // }
+  // longestLength = Math.max(longestLength, length);
 };
 
 // 4
