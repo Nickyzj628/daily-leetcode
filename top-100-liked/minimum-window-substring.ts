@@ -59,7 +59,7 @@ function minWindow(s: string, t: string): string {
 
 // 输出："BANC"
 // 解释：最小覆盖子串 "BANC" 包含来自字符串 t 的 'A'、'B' 和 'C'。
-// console.log(minWindow("ADOBECODEBANC", "ABC"));
+console.log(minWindow("ADOBECODEBANC", "ABC"));
 
 // "abc"
 console.log(minWindow("abc", "cba"));
