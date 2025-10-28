@@ -3,7 +3,7 @@
  * https://leetcode.cn/problems/best-time-to-buy-and-sell-stock-ii/description/
  */
 
-function maxProfit(prices: number[]): number {
+export function maxProfit(prices: number[]): number {
     // 贪心，涨了就卖
     let maxProfit = 0;
     for (let i = 1; i < prices.length; i++) {
